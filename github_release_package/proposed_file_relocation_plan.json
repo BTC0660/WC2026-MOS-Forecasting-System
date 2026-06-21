@@ -1,0 +1,237 @@
+{
+  "version": "wc2026-mos-proposed-relocation-plan-v1",
+  "action": "PLAN_ONLY_NO_FILES_MOVED",
+  "rules": [
+    "Copy only PUBLIC_READY files directly.",
+    "Create sanitized export copies for SANITIZE_THEN_PUBLISH files; preserve probabilities and hashes.",
+    "Require provenance review for MANUAL_REVIEW_REQUIRED files.",
+    "Exclude raw inputs, logs, API-fetch artifacts, caches, and credentials."
+  ],
+  "relocations": [
+    {
+      "source": "data/processed/model_calibration/mos_v3_7_predictions_20260618.json",
+      "destination": "data/predictions/20260618.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_v3_7_predictions_20260618.md",
+      "destination": "reports/daily_predictions/20260618.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_v3_7_predictions_20260619.json",
+      "destination": "data/predictions/20260619.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_v3_7_predictions_20260619.md",
+      "destination": "reports/daily_predictions/20260619.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_v3_7_predictions_20260620.json",
+      "destination": "data/predictions/20260620.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_v3_7_predictions_20260620.md",
+      "destination": "reports/daily_predictions/20260620.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_v3_7_predictions_20260621.json",
+      "destination": "data/predictions/20260621.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_v3_7_predictions_20260621.md",
+      "destination": "reports/daily_predictions/20260621.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/pending_hard_binding_20260621.json",
+      "destination": "data/predictions/pending_hard_binding_20260621.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/processed/model_calibration/20260620_post_match/ground_truth_receipts.json",
+      "destination": "data/post_match/20260620/ground_truth_receipts.json",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/processed/model_calibration/20260620_post_match/hard_receipts_20260620.json",
+      "destination": "data/hard_receipts/20260620.json",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/processed/model_calibration/20260620_post_match/match_reconciliation_table.json",
+      "destination": "data/post_match/20260620/reconciliation.json",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/reports/model_calibration/20260620_post_match/mos_postmatch_diagnostic_summary_20260620.md",
+      "destination": "reports/post_match_evaluations/20260620.md",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/processed/model_calibration/20260621_post_match/ground_truth_receipts_completed.json",
+      "destination": "data/post_match/20260621/ground_truth_receipts.json",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/20260621_post_match/hard_receipts_20260621_completed.json",
+      "destination": "data/hard_receipts/20260621.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/processed/model_calibration/20260621_post_match/match_reconciliation_table_completed.json",
+      "destination": "data/post_match/20260621/reconciliation.json",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/20260621_post_match/mos_rolling_update_20260621_completed.json",
+      "destination": "data/rolling_monitoring/rolling_update_20260621.json",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/reports/model_calibration/20260621_post_match/ground_truth_source_binding_report.md",
+      "destination": "reports/post_match_evaluations/20260621_sources.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/20260621_post_match/match_reconciliation_completed_report.md",
+      "destination": "reports/post_match_evaluations/20260621.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/20260621_post_match/mos_rolling_update_20260621_completed.md",
+      "destination": "reports/post_match_evaluations/20260621_rolling.md",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/processed/model_calibration/ground_truth_gate.json",
+      "destination": "governance/ground_truth_gate.json",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_execution_mode_controller.json",
+      "destination": "governance/execution_mode_controller.json",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_layer_governance_policy.md",
+      "destination": "governance/layer_governance_policy.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_correction_flow_lock.json",
+      "destination": "governance/correction_flow_lock.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_data_leak_prevention_report.md",
+      "destination": "governance/data_leak_prevention_report.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_discipline_dashboard.md",
+      "destination": "governance/discipline_dashboard.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_rolling_performance_tracker.json",
+      "destination": "data/rolling_monitoring/performance_tracker.json",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "data/processed/model_calibration/rolling_system_health.json",
+      "destination": "data/rolling_monitoring/system_health.json",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_liveness_index.json",
+      "destination": "data/rolling_monitoring/liveness_index.json",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/processed/model_calibration/hard_sample_ingestion_log.json",
+      "destination": "data/rolling_monitoring/hard_ingestion_log.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/rolling10_readiness_status.md",
+      "destination": "reports/rolling10_readiness_status.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "td_joint_distribution_model.md",
+      "destination": "methodology/td_joint_distribution_model.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "scoreline_generator.md",
+      "destination": "methodology/scoreline_generator.md",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/processed/model_calibration/mos_v3_7_stabilized_system.json",
+      "destination": "methodology/mos_v3_7_stabilized_system.json",
+      "status": "SANITIZE_THEN_PUBLISH"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_geometry_system_summary.md",
+      "destination": "reports/system_audits/geometry_system_summary.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/motivation_predictive_value_evaluation.md",
+      "destination": "reports/system_audits/motivation_validation.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_complexity_inventory.md",
+      "destination": "reports/system_audits/complexity_inventory.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_over_engineering_risk_assessment.md",
+      "destination": "reports/system_audits/over_engineering_risk.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "data/reports/model_calibration/mos_final_convergence_recommendation.md",
+      "destination": "reports/system_audits/final_convergence_recommendation.md",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "scripts/ground_truth_gate.py",
+      "destination": "scripts/governance/ground_truth_gate.py",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "scripts/run_hard_sample_runtime_monitor.py",
+      "destination": "scripts/governance/run_hard_sample_runtime_monitor.py",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "scripts/generate_20260621_frozen_v37_forecast.py",
+      "destination": "scripts/inference/generate_frozen_forecast.py",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "scripts/complete_20260621_hard_post_match_review.py",
+      "destination": "scripts/evaluation/complete_hard_post_match_review.py",
+      "status": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "source": "models/td_joint_goal_model.py",
+      "destination": "scripts/inference/td_joint_goal_model.py",
+      "status": "PUBLIC_READY"
+    },
+    {
+      "source": "models/post_match_review.py",
+      "destination": "scripts/evaluation/post_match_review.py",
+      "status": "PUBLIC_READY"
+    }
+  ]
+}

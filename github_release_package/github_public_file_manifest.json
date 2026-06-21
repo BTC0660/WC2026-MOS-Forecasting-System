@@ -1,0 +1,466 @@
+{
+  "version": "wc2026-mos-github-public-manifest-v1",
+  "generated_at_utc": "2026-06-21T08:36:41Z",
+  "model_boundary": {
+    "v3_7_modified": false,
+    "predictions_regenerated": false,
+    "probabilities_changed": false
+  },
+  "publication_counts": {
+    "SANITIZE_THEN_PUBLISH": 10,
+    "PUBLIC_READY": 27,
+    "MANUAL_REVIEW_REQUIRED": 8
+  },
+  "files": [
+    {
+      "source_path": "data/processed/model_calibration/mos_v3_7_predictions_20260618.json",
+      "proposed_public_path": "data/predictions/20260618.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Frozen v3.7 probability output; retain probabilities and remove only local absolute-path metadata.",
+      "exists": true,
+      "bytes": 56005,
+      "sha256": "4408e8dd4f3f4b3bd1694d500dca0960699301ca4b3162428d237217d0fa064a",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_v3_7_predictions_20260618.md",
+      "proposed_public_path": "reports/daily_predictions/20260618.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Human-readable fixed-scope prediction report.",
+      "exists": true,
+      "bytes": 2489,
+      "sha256": "44d1057735b1933fcd071535e1ad8bc616c28c7d984949cbba6c3b675195916f",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_v3_7_predictions_20260619.json",
+      "proposed_public_path": "data/predictions/20260619.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Frozen v3.7 probability output; retain probabilities and remove only local absolute-path metadata.",
+      "exists": true,
+      "bytes": 61730,
+      "sha256": "9da4a93111ca885b87d297a97ee0d1780ad407739956a72036ccabc53062a2e6",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_v3_7_predictions_20260619.md",
+      "proposed_public_path": "reports/daily_predictions/20260619.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Human-readable fixed-scope prediction report.",
+      "exists": true,
+      "bytes": 3513,
+      "sha256": "5a0f4ad3dfc215f65835f63281330cc199ba37c63e86d93478add294dfdf8222",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_v3_7_predictions_20260620.json",
+      "proposed_public_path": "data/predictions/20260620.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Frozen v3.7 probability output; retain probabilities and remove only local absolute-path metadata.",
+      "exists": true,
+      "bytes": 16133,
+      "sha256": "06ca8b8b524bb6c0f558b339fce9124076f4a704c76e21bcebb8c8a780157b9d",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_v3_7_predictions_20260620.md",
+      "proposed_public_path": "reports/daily_predictions/20260620.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Human-readable fixed-scope prediction report.",
+      "exists": true,
+      "bytes": 3903,
+      "sha256": "d5fec39c8b71ae48b5cbf1978414174b03f02dfb61343f0511612dfe5beb5abd",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_v3_7_predictions_20260621.json",
+      "proposed_public_path": "data/predictions/20260621.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Frozen v3.7 probability output; retain probabilities and remove only local absolute-path metadata.",
+      "exists": true,
+      "bytes": 63784,
+      "sha256": "0b33127c5c52307f12032d8a4119da67d96e237fed3897eb766eacb5fcb55dd4",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_v3_7_predictions_20260621.md",
+      "proposed_public_path": "reports/daily_predictions/20260621.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Human-readable fixed-scope prediction report.",
+      "exists": true,
+      "bytes": 3054,
+      "sha256": "c3b3bc7bd7f21e4c66ad38249b36fc6dc129325100ea54645cc44882aadf8326",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/pending_hard_binding_20260621.json",
+      "proposed_public_path": "data/predictions/pending_hard_binding_20260621.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Immutable pending-binding ledger; publish only after stripping local path metadata.",
+      "exists": true,
+      "bytes": 3409,
+      "sha256": "a5386b8b2ab69e09a58c001736d5c56de277d459d4c073b34347059d907db36c",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260620_post_match/ground_truth_receipts.json",
+      "proposed_public_path": "data/post_match/20260620/ground_truth_receipts.json",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Operator-attested source provenance is not independently public-verifiable.",
+      "exists": true,
+      "bytes": 3138,
+      "sha256": "6a90f37d237153d88e4d90b2cfbc7ee916f87f217cb773d1df45fb386a5a414b",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260620_post_match/hard_receipts_20260620.json",
+      "proposed_public_path": "data/hard_receipts/20260620.json",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Contains operator-attested results and frozen snapshot path metadata.",
+      "exists": true,
+      "bytes": 126537,
+      "sha256": "8d557003b9ff85ca45588c684883a5f53c63d305f99a4a6a81e4fa721d782d4d",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260620_post_match/match_reconciliation_table.json",
+      "proposed_public_path": "data/post_match/20260620/reconciliation.json",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Derived from operator-attested results; verify source provenance first.",
+      "exists": true,
+      "bytes": 7944,
+      "sha256": "4e3f11d7635c0cb9daae52fedc56e6137c73fb8813c24f554beac7ba82b39d7c",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/20260620_post_match/mos_postmatch_diagnostic_summary_20260620.md",
+      "proposed_public_path": "reports/post_match_evaluations/20260620.md",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Narrative depends on operator-attested result inputs.",
+      "exists": true,
+      "bytes": 1546,
+      "sha256": "5fe6c2a920a5c1f59ba5fa6b426f5a96040567f18458fd18930ee7f0049ec384",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260621_post_match/ground_truth_receipts_completed.json",
+      "proposed_public_path": "data/post_match/20260621/ground_truth_receipts.json",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Independently sourced ESPN final-result bindings with URLs and source hashes.",
+      "exists": true,
+      "bytes": 3904,
+      "sha256": "0c068620bcdc88f3c252233a3ad54a660ad2aadd5631177f80c890f2a6be986a",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260621_post_match/hard_receipts_20260621_completed.json",
+      "proposed_public_path": "data/hard_receipts/20260621.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Valid HARD receipts; remove local snapshot paths before release.",
+      "exists": true,
+      "bytes": 143084,
+      "sha256": "d74cd384a7acc0f127c20dbead62e579c0c120cba494cec906dccf0c17615b09",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260621_post_match/match_reconciliation_table_completed.json",
+      "proposed_public_path": "data/post_match/20260621/reconciliation.json",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Completed v3.7 reconciliation against independently bound results.",
+      "exists": true,
+      "bytes": 5881,
+      "sha256": "e6377f9b5b4d7e86943268ae6e5287d38da91cd79d096782e91e19ce9347e61f",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/20260621_post_match/mos_rolling_update_20260621_completed.json",
+      "proposed_public_path": "data/rolling_monitoring/rolling_update_20260621.json",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Rolling snapshot includes 2026-06-20 operator-attested records; verify public source provenance before publishing performance claims.",
+      "exists": true,
+      "bytes": 1293,
+      "sha256": "2f67a75cf7ca1a395e97e812366eaad701eec4439c483d4175cb6386d40fe11f",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/20260621_post_match/ground_truth_source_binding_report.md",
+      "proposed_public_path": "reports/post_match_evaluations/20260621_sources.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Independent source-binding record for the completed review.",
+      "exists": true,
+      "bytes": 737,
+      "sha256": "60d4b38e972fda897bb65394f9d583e2b7fd65266441312b0b62e714cb40b671",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/20260621_post_match/match_reconciliation_completed_report.md",
+      "proposed_public_path": "reports/post_match_evaluations/20260621.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Completed evaluation report using independent ESPN results.",
+      "exists": true,
+      "bytes": 493,
+      "sha256": "14c8a6ed6be7994aa935d361bb248e0e5890db3acf24621d1ce7f9768405e136",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/20260621_post_match/mos_rolling_update_20260621_completed.md",
+      "proposed_public_path": "reports/post_match_evaluations/20260621_rolling.md",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Rolling snapshot includes 2026-06-20 operator-attested records; verify public source provenance before publishing performance claims.",
+      "exists": true,
+      "bytes": 664,
+      "sha256": "1ec2d2bcb9f04ede8be9f0cb7f41a12d6797368e00c046a74e1c15aec14e266f",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/ground_truth_gate.json",
+      "proposed_public_path": "governance/ground_truth_gate.json",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Ground-truth dependency specification.",
+      "exists": true,
+      "bytes": 2177,
+      "sha256": "9f0f0eb09dfe8e44c5ed714ec42fdadbf60b82ac0f311b7c7fd314d8cc24504e",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_execution_mode_controller.json",
+      "proposed_public_path": "governance/execution_mode_controller.json",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "SOFT/HARD execution policy.",
+      "exists": true,
+      "bytes": 1537,
+      "sha256": "4784405d481d0191100598c7e7e632d3d0a6f3d2521041fed894130bb35a9b93",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_layer_governance_policy.md",
+      "proposed_public_path": "governance/layer_governance_policy.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Locks v3.7 as the only probability writer.",
+      "exists": true,
+      "bytes": 3523,
+      "sha256": "c06d411fda818a575774a2dc230fbcf7046bd2e098378cedd9496b250f3cda41",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_correction_flow_lock.json",
+      "proposed_public_path": "governance/correction_flow_lock.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Read-only correction-flow lock with local source references.",
+      "exists": true,
+      "bytes": 8093,
+      "sha256": "b58697ea7f54fef31afcc01af11f77ca002bef39859d49b89e6f6b1c65a0f2a9",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_data_leak_prevention_report.md",
+      "proposed_public_path": "governance/data_leak_prevention_report.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Data-leak prevention controls.",
+      "exists": true,
+      "bytes": 1862,
+      "sha256": "7012c073ddb60b78dc474e9a7d3c7221c310103c27e2d0fb25c3e63fb46aaabe",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_discipline_dashboard.md",
+      "proposed_public_path": "governance/discipline_dashboard.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Operational-discipline monitoring report.",
+      "exists": true,
+      "bytes": 1966,
+      "sha256": "3b6396f04dc876d117e1a8c962d8921281e1ecb17aae294c9bb5d428200da257",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_rolling_performance_tracker.json",
+      "proposed_public_path": "data/rolling_monitoring/performance_tracker.json",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Rolling snapshot includes 2026-06-20 operator-attested records; verify public source provenance before publishing performance claims.",
+      "exists": true,
+      "bytes": 5032,
+      "sha256": "2bfd72c8efc294c20f7ff11a3b0aa4de9594695884bd50817a173814431e25a4",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/processed/model_calibration/rolling_system_health.json",
+      "proposed_public_path": "data/rolling_monitoring/system_health.json",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Rolling integrity and bootstrap segregation state.",
+      "exists": true,
+      "bytes": 2011,
+      "sha256": "34b508c2c31b3217b89830a438a07e1d84ce0cccf130a5039369514bad398005",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_liveness_index.json",
+      "proposed_public_path": "data/rolling_monitoring/liveness_index.json",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "HARD-intake liveness signal.",
+      "exists": true,
+      "bytes": 690,
+      "sha256": "4979b3b8f141751085a5e5a4721e09b6491cf38bcbdf7e6f30af38a881d99adc",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/processed/model_calibration/hard_sample_ingestion_log.json",
+      "proposed_public_path": "data/rolling_monitoring/hard_ingestion_log.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "HARD intake log contains local receipt paths.",
+      "exists": true,
+      "bytes": 6043,
+      "sha256": "172af407eb0669690c44bcec0d49576fc4ecd06e0cb09de64b3fb62b68b8bad4",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/rolling10_readiness_status.md",
+      "proposed_public_path": "reports/rolling10_readiness_status.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Rolling readiness status.",
+      "exists": true,
+      "bytes": 642,
+      "sha256": "45bdebd84822e879387ad03a4aeca6e87a19859f1ec9db459d15b72eb93cd0aa",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "td_joint_distribution_model.md",
+      "proposed_public_path": "methodology/td_joint_distribution_model.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Core joint goal-distribution methodology.",
+      "exists": true,
+      "bytes": 2901,
+      "sha256": "ab472bc53caf7debfe5342bc42ef6c8ddf11aaaa968255d8afdf2eca24920f2b",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "scoreline_generator.md",
+      "proposed_public_path": "methodology/scoreline_generator.md",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Scoreline generation methodology. Remove local absolute-path metadata before publication.",
+      "exists": true,
+      "bytes": 2636,
+      "sha256": "af37ec8608a380b011ab54d8efddb5ba971a96700fd86637f581f5c68e654288",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/processed/model_calibration/mos_v3_7_stabilized_system.json",
+      "proposed_public_path": "methodology/mos_v3_7_stabilized_system.json",
+      "publication_status": "SANITIZE_THEN_PUBLISH",
+      "rationale": "Frozen production-system state; remove local paths.",
+      "exists": true,
+      "bytes": 34826,
+      "sha256": "5bd30de9f541b40b08bba87e41694c52658a2b149419c137d9f14498861875f7",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_geometry_system_summary.md",
+      "proposed_public_path": "reports/system_audits/geometry_system_summary.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Post-hoc geometry diagnosis.",
+      "exists": true,
+      "bytes": 1496,
+      "sha256": "3c3af2203ce4159a2438cecaa7e73ea875068cea2a311c7fdfb7173fd7b2af95",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/motivation_predictive_value_evaluation.md",
+      "proposed_public_path": "reports/system_audits/motivation_validation.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Motivation overlay validation; diagnostic only.",
+      "exists": true,
+      "bytes": 1733,
+      "sha256": "1d4cc3f78b3dd3d663109343a5c021b7aa1ece6b02e7059d3281ac1d0c10775f",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_complexity_inventory.md",
+      "proposed_public_path": "reports/system_audits/complexity_inventory.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Layer-complexity inventory.",
+      "exists": true,
+      "bytes": 2625,
+      "sha256": "a8a5864a83f3d6e01f3d46aa9312b0513f3e922e44379ca799f1f41a0db93779",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_over_engineering_risk_assessment.md",
+      "proposed_public_path": "reports/system_audits/over_engineering_risk.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Over-engineering assessment.",
+      "exists": true,
+      "bytes": 1854,
+      "sha256": "066385cf7a26d5a1f9380faad1511a392af0bab51507f80996360ae884b5668a",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "data/reports/model_calibration/mos_final_convergence_recommendation.md",
+      "proposed_public_path": "reports/system_audits/final_convergence_recommendation.md",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Final architecture convergence recommendation.",
+      "exists": true,
+      "bytes": 2894,
+      "sha256": "bf0a2ee963bae20736be159ae5a5877fda0ef9b2ac9da7fd7986ff1660885990",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "scripts/ground_truth_gate.py",
+      "proposed_public_path": "scripts/governance/ground_truth_gate.py",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Ground-truth gate implementation.",
+      "exists": true,
+      "bytes": 3654,
+      "sha256": "e620a2531e932664a980b5daf0217a718cfa4c71876256676eaaa34840e478be",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "scripts/run_hard_sample_runtime_monitor.py",
+      "proposed_public_path": "scripts/governance/run_hard_sample_runtime_monitor.py",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "HARD intake monitoring implementation.",
+      "exists": true,
+      "bytes": 15663,
+      "sha256": "6cc4e2c420e3b38db51e4d5740ffa3bc362a398baf297f0132bd86f2e8999b57",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "scripts/generate_20260621_frozen_v37_forecast.py",
+      "proposed_public_path": "scripts/inference/generate_frozen_forecast.py",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Append-only frozen forecast extraction.",
+      "exists": true,
+      "bytes": 14823,
+      "sha256": "952bb3d1f6e8853cc2e77bcbe70348cf33c51a2643a9398399f2e1ab303620f3",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "scripts/complete_20260621_hard_post_match_review.py",
+      "proposed_public_path": "scripts/evaluation/complete_hard_post_match_review.py",
+      "publication_status": "MANUAL_REVIEW_REQUIRED",
+      "rationale": "Contains temporary local ESPN payload input paths; parameterize before publishing.",
+      "exists": true,
+      "bytes": 28036,
+      "sha256": "9a66247c0efcb0a6100f1956852be918de6f310a758076219e43175c584c3c6a",
+      "contains_absolute_local_path": true
+    },
+    {
+      "source_path": "models/td_joint_goal_model.py",
+      "proposed_public_path": "scripts/inference/td_joint_goal_model.py",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Core T-D implementation.",
+      "exists": true,
+      "bytes": 15186,
+      "sha256": "82bc341986da479105644842c4c2d6a278bafd9411a0f378b7982f86882799c0",
+      "contains_absolute_local_path": false
+    },
+    {
+      "source_path": "models/post_match_review.py",
+      "proposed_public_path": "scripts/evaluation/post_match_review.py",
+      "publication_status": "PUBLIC_READY",
+      "rationale": "Post-match review support.",
+      "exists": true,
+      "bytes": 776,
+      "sha256": "85ff12dff73840ae4a811f075277989dcddffe42d2b36ff353433a1aa85ddf79",
+      "contains_absolute_local_path": false
+    }
+  ]
+}
